@@ -2,7 +2,12 @@
 
 # Spring Boot
 **1. What is Spring Boot? Why should you use it?**
+
 Spring Boot is another Java framework from Spring umbrella which aims to simplify the use of Spring Framework for Java development. It removes most of configuration and dependencies and a lot of manual setups.
 
 Spring Boot not only provides a lot of convenience by auto-configuration a lot of things for you but also improves the productivity because it lets you focus only on writing your business logic.
 For example there is no need to setup tomcat server, it is comes with embedded Tomcat Server. 
+
+**2. What is an actuator in Spring boot?**
+
+Spring Boot provides actuator to monitor and manage our application. Actuator is a tool which has HTTP endpoints. Actuator is mainly used to expose operational information about the running application – health, metrics, info, dump, env, etc.
